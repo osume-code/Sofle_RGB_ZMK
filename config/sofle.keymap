@@ -1,4 +1,4 @@
-/*
+6/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -20,7 +20,7 @@
         label = "LEFT_ENCODER";
         a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <60>;
+        steps = <40>;
     };
 
     right_encoder: encoder_right {
@@ -28,13 +28,13 @@
         label = "RIGHT_ENCODER";
         a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <60>;
+        steps = <40>;
     };
 
     sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
-        triggers-per-rotation = <30>;
+        triggers-per-rotation = <20>;
     };
 };
 
