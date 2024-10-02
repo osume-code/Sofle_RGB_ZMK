@@ -241,7 +241,7 @@
         alt_tab_leave: alt_tab_leave {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_release>, <&kp LALT>, <&macro_tap>, <&kp>;
+            bindings = <&macro_release>, <&kp LALT>, <&macro_tap>, <&to 0>;
 
             label = "ALT_TAB_LEAVE";
         };
