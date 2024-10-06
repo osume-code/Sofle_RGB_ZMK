@@ -501,11 +501,11 @@
             //              |      |       |       |      |      |  |      |  0   |  0  |   0   |   .  |
 
             bindings = <
-&td_btr          &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                        &rgb_ug RGB_HUI  &trans    &trans          &trans     &trans  &rgb_ug RGB_EFF
-&rgb_ug RGB_BRI  &kp PSCRN        &trans        &kp UP        &trans        &trans                                              &rgb_ug RGB_HUD  &trans    &kp UP_ARROW    &trans     &trans  &rgb_ug RGB_SPI
-&rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &kp LEFT      &kp DOWN      &kp RIGHT     &trans                                              &rgb_ug RGB_SAI  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans  &rgb_ug RGB_SPD
-&stm             &out OUT_TOG     &trans        &trans        &trans        &trans        &ext_power EP_TOG    &rgb_ug RGB_TOG  &rgb_ug RGB_SAD  &trans    &trans          &trans     &trans  &to 5
-                                  &trans        &trans        &trans        &trans        &trans               &trans           &trans           &trans    &trans          &trans
+&td_btr          &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                        &rgb_ug RGB_HUI  &trans    &trans          &trans       &trans  &rgb_ug RGB_EFF
+&rgb_ug RGB_BRI  &kp PSCRN        &trans        &kp UP        &trans        &trans                                              &rgb_ug RGB_HUD  &trans    &kp UP_ARROW    &trans       &trans  &rgb_ug RGB_SPI
+&rgb_ug RGB_BRD  &rgb_ug RGB_TOG  &kp LEFT      &kp DOWN      &kp RIGHT     &trans                                              &rgb_ug RGB_SAI  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT    &trans  &rgb_ug RGB_SPD
+&stm             &out OUT_TOG     &trans        &trans        &trans        &trans        &ext_power EP_TOG    &rgb_ug RGB_TOG  &rgb_ug RGB_SAD  &trans    &trans          &trans       &trans  &to 5
+                                  &bootloader   &trans        &trans        &trans        &trans               &trans           &trans           &trans    &trans          &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>, <&rgb_encoder>;
@@ -520,7 +520,7 @@
                                 &alt_tab_leave  &alt_tab_leave  &alt_tab_leave  &alt_tab_leave  &alt_tab_leave    &alt_tab_leave  &alt_tab_leave  &alt_tab_leave  &alt_tab_leave  &alt_tab_leave
             >;
 
-            sensor-bindings = <&inc_dec_kp TAB LS(TAB)>, <&inc_dec_kp Y Z>;
+            sensor-bindings = <&inc_dec_kp LS(TAB) TAB>, <&inc_dec_kp Y Z>;
         };
 
         gaming {
