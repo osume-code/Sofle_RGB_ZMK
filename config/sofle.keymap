@@ -446,7 +446,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "GRAVE_QUERTY";
             #binding-cells = <0>;
-            bindings = <&kp GRAVE>, <&to 0>;
+            bindings = <&kp GRAVE>, <&to 1>;
         };
 
         grave_colemak: grave_colemak {
