@@ -259,11 +259,6 @@
         // Characters
         // Fractions
         // Operators
-
-        togaming {
-            bindings = <&to 2>;
-            key-positions = <53 56>;
-        };
     };
 };
 
@@ -446,14 +441,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "GRAVE_QUERTY";
             #binding-cells = <0>;
-            bindings = <&kp GRAVE>, <&to 1>;
+            bindings = <&kp GRAVE>, <&to 1>, <&to 2>;
         };
 
         grave_colemak: grave_colemak {
             compatible = "zmk,behavior-tap-dance";
             label = "GRAVE_COLEMAK";
             #binding-cells = <0>;
-            bindings = <&kp GRAVE>, <&to 0>;
+            bindings = <&kp GRAVE>, <&to 0>, <&to 2>;
         };
 
         F_colemak: F_colemak {
@@ -461,6 +456,8 @@
             label = "F_COLEMAK";
             #binding-cells = <0>;
             bindings = <&sl 3>, <&to 0>;
+
+            tapping-term-ms = <400>;
         };
     };
 
