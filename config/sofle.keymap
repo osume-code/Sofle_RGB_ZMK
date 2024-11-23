@@ -442,6 +442,8 @@
             label = "GRAVE_QUERTY";
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&to 1>, <&to 2>;
+
+            tapping-term-ms = <500>;
         };
 
         grave_colemak: grave_colemak {
@@ -449,6 +451,8 @@
             label = "GRAVE_COLEMAK";
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&to 0>, <&to 2>;
+
+            tapping-term-ms = <500>;
         };
 
         F_colemak: F_colemak {
