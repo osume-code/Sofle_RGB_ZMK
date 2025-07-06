@@ -442,7 +442,7 @@
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&to 2>, <&to 1>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
         };
 
         grave_colemak: grave_colemak {
@@ -451,7 +451,7 @@
             #binding-cells = <0>;
             bindings = <&kp GRAVE>, <&to 0>, <&to 2>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
         };
 
         F_colemak: F_colemak {
@@ -460,7 +460,7 @@
             #binding-cells = <0>;
             bindings = <&sl 3>, <&to 0>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
         };
     };
 
