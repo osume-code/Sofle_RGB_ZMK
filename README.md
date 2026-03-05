@@ -16,7 +16,7 @@ Batteries: 3.7V 850mAh LiPo
 
 OLED: 128X32 OLED Screen
 
-Switches: Gateron Brown
+Switches: yuzu peach silent v3
 
 Encoders: AlpsAlpine EC11N1524402 
 
@@ -30,6 +30,6 @@ Standoffs: 11MM
 
 Pads: 5mm
 
-Keycaps: Artifact Bloom Series Keycap Set: Glow
+Keycaps: Drop MT3 pbt profile keycaps
 
 Knobs: Glorious Rotary Knobs
