@@ -2,7 +2,7 @@
 
 72 LED Sofle RGB using ZMK 3.5
 
-![20230421_005150]([https://user-images.githubusercontent.com/103195644/233544056-fd9f0372-fd23-49db-a1d4-80f3d91f2b13.jpg](https://cdn.discordapp.com/attachments/920124621615923230/1479011645480243231/RemxmDM.jpeg?ex=69aa7c6e&is=69a92aee&hm=0afe5eeb975f00766adf23e38f0503cbc41327a60e5d16f68c4d54881697a13b&))
+![20230421_005150](https://cdn.discordapp.com/attachments/920124621615923230/1479011645480243231/RemxmDM.jpeg?ex=69aa7c6e&is=69a92aee&hm=0afe5eeb975f00766adf23e38f0503cbc41327a60e5d16f68c4d54881697a13b&)
 
 ![keyboard-layout (1)](https://github.com/Preacher325/Sofle_RGB_ZMK/assets/103195644/da32258f-aede-4ab4-9a9b-e10e400d24c1)
 
